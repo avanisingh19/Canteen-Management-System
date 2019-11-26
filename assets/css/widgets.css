@@ -1,0 +1,148 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Widgets (global styles)
+2. Tag Cloud
+3. Search
+4. Flickr
+5. Default Widgets
+-------------------------------------------------------------------*/
+/* Widgets
+---------------------------------------- */
+.widgets {
+  padding: 0; }
+  .widgets li {
+    list-style: none; }
+  .widgets .widget-title {
+    font-size: 24px; }
+
+.widget-container {
+  font-size: 13px; }
+  .widget-container + .widget-container {
+    margin-top: 30px; }
+
+/* Tag Cloud
+---------------------------------------- */
+.tagcloud {
+  font-size: 12px;
+  overflow: hidden;
+  *zoom: 1;
+  margin: 25px -1px 0 -1px; }
+  .tagcloud a {
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    color: #a4a4a4;
+    display: block;
+    float: left;
+    font-size: 13px !important;
+    margin: 1px;
+    padding: 2px 25px; }
+    .tagcloud a:hover {
+      text-decoration: none; }
+
+/* Search
+---------------------------------------- */
+.searchform div {
+  position: relative; }
+.searchform input[type="text"] {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  height: 52px;
+  padding: 5px 22px; }
+.searchform button {
+  background: none;
+  border: none;
+  position: absolute;
+  padding: 19px 22px;
+  right: 0;
+  top: 0%; }
+
+/* Flickr
+---------------------------------------- */
+.flickr-widget {
+  margin: 20px -2% 0 -2%; }
+  .flickr-widget:after {
+    clear: both;
+    content: "";
+    display: table; }
+  .flickr-widget a {
+    float: left;
+    margin: 2%;
+    max-width: 85px;
+    position: relative;
+    overflow: hidden;
+    width: 29.33%; }
+    .flickr-widget a:hover {
+      text-decoration: none; }
+      .flickr-widget a:hover:before {
+        opacity: 1; }
+      .flickr-widget a:hover:after {
+        opacity: .9; }
+    .flickr-widget a:before, .flickr-widget a:after {
+      position: absolute;
+      opacity: 0;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s; }
+    .flickr-widget a:before {
+      color: #fff;
+      content: "\f00e";
+      font-family: FontAwesome;
+      font-size: 18px;
+      left: 50%;
+      margin-left: -9px;
+      margin-top: -19px;
+      top: 50%;
+      z-index: 2; }
+    .flickr-widget a:after {
+      bottom: 0;
+      content: "";
+      height: 102%;
+      left: 0;
+      top: 0;
+      width: 102%; }
+
+.widget_recent_entries ul,
+.recent-widget ul {
+  padding-left: 0; }
+  .widget_recent_entries ul li,
+  .recent-widget ul li {
+    border-top: 1px solid #ececec;
+    position: relative;
+    padding-bottom: 19px;
+    padding-top: 19px; }
+    .widget_recent_entries ul li:first-of-type,
+    .recent-widget ul li:first-of-type {
+      border: 0;
+      padding-top: 0; }
+    .widget_recent_entries ul li h5,
+    .recent-widget ul li h5 {
+      font-size: 13px;
+      margin: 0;
+      text-transform: uppercase; }
+    .widget_recent_entries ul li > a:hover,
+    .recent-widget ul li > a:hover {
+      text-decoration: none; }
+    .widget_recent_entries ul li > a i,
+    .recent-widget ul li > a i {
+      margin-left: 5px; }
+    .widget_recent_entries ul li > p,
+    .recent-widget ul li > p {
+      margin-bottom: 0; }
+    .widget_recent_entries ul li > .post-date:after,
+    .recent-widget ul li > .post-date:after {
+      content: "/";
+      margin: 0 7px; }
+
+.recent-posts-widget ul li {
+  padding-left: 81px; }
+  .recent-posts-widget ul li:first-of-type > img {
+    top: 2px; }
+  .recent-posts-widget ul li > img {
+    border: 6px solid;
+    border-radius: 100%;
+    left: 0;
+    position: absolute;
+    top: 22px;
+    width: 58px; }

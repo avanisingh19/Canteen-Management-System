@@ -1,0 +1,13 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Kataleya HTML template
+Version:  1.0
+Last change:  12/07/14
+Author: AnpsThemes
+-------------------------------------------------------------------*/
+
+@import "bootstrap.css";
+@import "global.css";
+@import "elements.css";
+@import "widgets.css";

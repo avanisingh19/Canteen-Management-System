@@ -1,0 +1,294 @@
+/* =Imports
+-------------------------------------------------------------- */
+/* =Fonts
+-------------------------------------------------------------- */
+/* Import Fonts */
+@font-face {
+  font-family: "Pacifico";
+  src: url('../fonts/pacifico-webfont.eot?1402738684');
+  src: url('../fonts/pacifico-webfont.eot?&1402738684#iefix') format('embedded-opentype'), url('../fonts/pacifico-webfont.woff?1402738684') format('woff'), url('../fonts/pacifico-webfont.ttf?1402738684') format('truetype'), url('../fonts/pacifico-webfont.svg?1402738684#pacificowebfont') format('svg'); }
+/* Font Family 1 (headings) */
+h1, h2, h3, h4, h5, h6,
+.site-navigation,
+.btn,
+.dropcaps:first-letter,
+.pricing-table header,
+.blog-loop.columns article header,
+.filter,
+.blog-single .comment-list li header,
+.order-menu .food-item.price-right header .quantity,
+.countdown {
+  font-family: 'Pacifico'; }
+
+/* Font Family 2 (main texts) */
+body,
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+textarea,
+h1.style-2, h2.style-2, h3.style-2, h4.style-2, h5.style-2, h6.style-2,
+.panel-title,
+.recent-widget ul li > h5 {
+  font-family: 'Open Sans', sans-serif; }
+
+/* =Text Colors
+-------------------------------------------------------------- */
+/* main text color */
+body,
+.widget-container .twitter {
+  color: #727272; }
+
+@media (min-width: 992px) {
+  .responsive .site-navigation .sub-menu a {
+    color: #727272; } }
+
+/* light text color */
+.site-navigation li > a,
+.btn,
+.btn:hover,
+mark,
+.pricing-table .price,
+.icon .fa,
+span.page-numbers,
+.active .page-numbers,
+a.page-numbers:hover,
+.tagcloud a:hover,
+.jumbotron h5,
+.jumbotron.style-2 .color.style-2,
+.posts article > a .hover,
+.blog-loop.columns article header a,
+.blog-loop.columns article header i,
+.form-date input[type="text"], .form-date input[type="tel"], .form-date input[type="email"], .form-date input[type="number"], .form-date input[type="password"], .form-date textarea, .form-date select,
+.twitter,
+.ls-container,
+.ls-kataleya .ls-nav-prev,
+.ls-kataleya .ls-nav-next,
+.posts article > a i,
+a.carousel-control i,
+a.carousel-control:hover i,
+.menu-dark.sticky-scroll .site-navigation > li > a,
+.menu-dark.sticky-scroll div.site-navigation > ul > li > a,
+.btn:focus,
+a.btn:hover i,
+.coming-soon *,
+a.pp_close {
+  color: #fff; }
+
+/* headings */
+h1, h2, h3, h4, h5, h6,
+.page-heading ul li a,
+.dropcaps:first-letter,
+div.style-2 .page-numbers a,
+.page-numbers.style-2 a,
+.nav-tabs > li a,
+.panel .panel-heading a.collapsed,
+.jumbotron.style-2,
+a:hover, a:focus,
+blockquote,
+.searchform button,
+.social a:hover,
+.color.style-2,
+.filter button,
+.landing-icons a i,
+.blog-single .comment-list li header,
+.blog-single .comment-list li h5:after,
+.blog-single .comment-list li a,
+.recent-widget ul li > h5,
+.recent-widget ul li > .post-date,
+a:hover i {
+  color: #363636; }
+
+.btn.style-2.secondary,
+.btn.style-2:hover,
+.btn.style-2:focus {
+  color: #363636 !important; }
+
+strong {
+  color: #000; }
+
+@media (min-width: 992px) {
+  .menu-dark .site-navigation li > a {
+    color: #000; } }
+/* primary color */
+a,
+.color,
+div.site-navigation ul > li a:hover,
+.site-navigation > li a:hover,
+.site-navigation li.active > a,
+.site-navigation li.current_page_item > a,
+.site-navigation .sub-menu a:hover,
+.page-heading ul li span,
+.dropcaps.style-2:first-letter,
+.list li:before,
+i.fa,
+.pricing-table.style-2 header,
+div.style-2 .page-numbers a.page-numbers:hover,
+.page-numbers.style-2 a.page-numbers:hover,
+.nav-tabs > li.active a,
+.nav-tabs > li a:hover,
+.nav-tabs > li.active > a:hover,
+.panel .panel-heading a,
+.panel .panel-heading a:hover,
+.food-item .price,
+.landing-page a:hover h4,
+.landing-page a:hover h5,
+blockquote:before,
+.site-footer .copyright .social a:hover,
+a:hover h2,
+.filter li,
+.filter li button.selected,
+.menu-dark .site-navigation li.active > a,
+.blog-single .comment-list li h5,
+.blog-single .comment-list li a:hover,
+.order-menu .food-item.price-right header .quantity .minus,
+.order-menu .food-item.price-right header .quantity .plus,
+.food-item.active header h3,
+.order-menu-wrapper .close-order,
+.search-posts li a:hover i,
+.search-posts li a:hover h4 {
+  color: #ff9c00; }
+
+.icon span {
+  color: #bfbfbf; }
+
+.btn.style-2.danger {
+  color: #f95f22; }
+
+.btn.style-2.success {
+  color: #87c73c; }
+
+/* =Background Colors
+-------------------------------------------------------------- */
+.site-header .navbar-header button,
+.btn,
+mark,
+.pricing-table header,
+.icon .fa,
+span.page-numbers,
+.active .page-numbers,
+a.page-numbers:hover,
+div.style-2 .page-numbers span.page-numbers,
+.page-numbers.style-2 span.page-numbers,
+.tagcloud a:hover,
+.nav-tabs.style-2 > li.active:before,
+.posts article > a:before,
+.form-date input[type="text"], .form-date input[type="tel"], .form-date input[type="email"], .form-date input[type="number"], .form-date input[type="password"], .form-date textarea, .form-date select,
+.twitter .carousel-indicators li.active,
+.twitter .carousel-indicators li.active:hover,
+.testimonials .carousel-indicators li.active,
+.testimonials .carousel-indicators li.active:hover,
+.ls-kataleya .ls-nav-prev,
+.ls-kataleya .ls-nav-next,
+.ls-kataleya .ls-bottom-slidebuttons a:hover,
+.ls-kataleya .ls-bottom-slidebuttons a.ls-nav-active,
+.carousel.post-images .carousel-indicators li:hover,
+.carousel.post-images .carousel-indicators li.active,
+.blog-loop.columns article header:before,
+.flickr-widget a:after,
+.widget-container .twitter .carousel-indicators li.active,
+.testimonials .carousel-indicators li.active,
+a.carousel-control i,
+.order-menu-wrapper .close-order:after,
+.order-menu-wrapper .order-menu .mobile-close,
+.countdown li span {
+  background-color: #ff9c00; }
+
+a.pp_close {
+  background: #ff9c00 !important; }
+
+.mini-logo *,
+.mini-logo-2 *,
+.mini-logo-3 * {
+  fill: #ff9c00; }
+
+mark.style-2,
+.twitter .carousel-indicators li:hover,
+.testimonials .carousel-indicators li:hover,
+.ls-kataleya .ls-nav-prev:hover,
+.ls-kataleya .ls-nav-next:hover,
+.widget-container .twitter .carousel-indicators li,
+.testimonials .carousel-indicators li,
+a.carousel-control:hover i {
+  background-color: #363636; }
+
+.btn.secondary,
+.btn:hover,
+.btn:focus {
+  background-color: #363636 !important; }
+
+.site-header,
+.pricing-table.style-2 header,
+.pricing-table.style-2 .btn {
+  background-color: #2e1e1f; }
+
+@media (min-width: 992px) {
+  .responsive .site-navigation .sub-menu {
+    background-color: #fff; } }
+@media (max-width: 992px) {
+  .responsive .site-navigation {
+    background-color: #333; } }
+
+.site-header .navbar-header button:hover {
+  background-color: #333; }
+
+::-moz-selection {
+  color: #fff;
+  background-color: #ff9c00; }
+
+::selection {
+  color: #fff;
+  background-color: #ff9c00; }
+
+.ls-kataleya .ls-bottom-slidebuttons a,
+.carousel.post-images .carousel-indicators li,
+.blog-loop article,
+.blog-loop article .post-inner,
+.twitter .carousel-indicators li {
+  background-color: #fff; }
+
+.btn.danger {
+  background-color: #f95f22; }
+
+.btn.success {
+  background-color: #87c73c; }
+
+/* =Border Colors
+-------------------------------------------------------------- */
+.form-date input[type="text"]:focus,
+.form-date input[type="tel"]:focus,
+.form-date input[type="email"]:focus,
+.form-date input[type="number"]:focus,
+.form-date input[type="password"]:focus,
+.form-date textarea:focus,
+.form-date select:focus {
+  border: 1px solid rgba(0, 0, 0, 0.25); }
+
+.form-date input[type="text"],
+.form-date input[type="tel"],
+.form-date input[type="email"],
+.form-date input[type="number"],
+.form-date input[type="password"],
+.form-date textarea:focus,
+.form-date select {
+  border: 1px solid #ff9c00; }
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+textarea:focus, select:focus {
+  border: 1px solid #ff9c00; }
+
+@media (min-width: 992px) {
+  .responsive .site-navigation .sub-menu {
+    border-color: #ff9c00 !important; } }
+
+.nav-tabs > li.active {
+  border-bottom-color: #ff9c00; }
+
+.blog-single .comment-list li img,
+.blog-single .author img,
+.recent-posts-widget ul li img {
+  border-color: #ff9c00; }
